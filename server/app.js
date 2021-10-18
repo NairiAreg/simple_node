@@ -28,4 +28,4 @@ app.get('/getAll', (req,res) => {
 
 
 
-app.listen(process.env.PORT, () => console.log('App is running')    )
+app.listen(process.env.PORT, () => console.log('App is running at port '+process.env.PORT))
