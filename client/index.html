@@ -9,9 +9,9 @@
 </head>
 <body>
     <main>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Name">
-        <button>Add Name</button>
+        <label for="name-input">Name:</label>
+        <input type="text" name="name-input" id="name-input" placeholder="Name">
+        <button id="add-name-btn">Add Name</button>
 
         <br><br><br>
         <div>
@@ -31,6 +31,12 @@
 
             </tbody>
         </table>
+
+        <section hidden id="update-row">
+            <label for="update-name-input">Update Name:</label>
+            <input type="text" id="update-name-input">
+            <button id="update-row-btn">Update</button>
+        </section>
     </main>
 
     <script src="script.js"></script>
